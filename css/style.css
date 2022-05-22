@@ -1,3 +1,7 @@
+body {
+  padding-top: 75px;
+}
+
 .navbarbg {
   height: 55px;
   background-color: white;
@@ -13,9 +17,15 @@ input.searche {
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(/assets/search-solid.svg);
   background-repeat: no-repeat;
-  background-size: 7%;
+  text-indent: 30px;
+  background-size: 10%;
+}
+
+:focus.searche::placeholder {
+  color: transparent;
+  background-image: none;
 }
 
 .body {
